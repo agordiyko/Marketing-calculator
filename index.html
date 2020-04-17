@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Marketing calculator</title>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <h2>Формулы расчета эффективности рекламы в арбитраже трафика</h2>
+        </div>
+    </header>
+    <main class="main">
+        <div class="wrapper">
+            <div class="concept__box">
+                <div class="concept__item profit">
+                    <h2 class="concept__title">
+                        Профит, profit
+                    </h2>
+                    <p class="concept__text">
+                        Прибыль от арбитража. Разница между затратами на покупку трафика и полученным вознаграждением от партнерки. Например вы потратили $100 на клики в пуш-сетке и получили 500 заявок с лендинга. Из которых партнерка подтвердила 100 и засчитала вам в лиды. За каждый лид у вас выплата $17, итого ваш общий заработок в партнерке $1700. Отнимаем $100 потраченных на трафик и получаем профит $1600.
+                    </p>
+                    <p class="concept__description">
+                        Считаем профит.
+                    </p>
+                    <div class="concept__calc-box">
+                        <div class="concept__calc-box_item">
+                            <span>Общий заработок</span>
+                            <input type="number" id="profit-revenue">
+                        </div>
+                        <div class="concept__calc-box_item prefix">
+                            <span>Затраты на трафик</span>
+                            <input type="number" id="profit-expenses">
+                        </div>
+                        <div class="concept__calc-box_item" class="concept-result">
+                            <span class="concept-result__title">Профит</span>
+                            <div class="concept-result__sum"></div>
+                        </div>
+                    </div>
+                    <div class="concept-result">
+                        <input type="button" value="Расчет" id="profit-btn">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
