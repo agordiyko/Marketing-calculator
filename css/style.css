@@ -634,6 +634,10 @@ textarea {
   color: #0077d1;
 }
 
+._red {
+  color: #f6569c;
+}
+
 ._red::-webkit-input-placeholder {
   color: #f6569c;
 }
